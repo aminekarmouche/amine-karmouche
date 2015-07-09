@@ -22,6 +22,7 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
 	font-size: 60px;
 	color: #F6FFF9;
+  padding-bottom: 10px;
 }
 
 h2 {
@@ -31,7 +32,7 @@ h2 {
   
 }
 h3 {
-  font-size: 25px;
+  font-size: 20px;
 	font-weight: 400;
   color: #95ACFF;
 }
@@ -89,7 +90,7 @@ a:after {
     text-align: center;
 }
 
-.btn {
+/*.btn {
   display: inline-block;
   padding: 10px 20px;
   margin-bottom: 0;
@@ -132,7 +133,7 @@ form.signup button.btn {
 form.signup input.form-control:focus {
 	border-color: #fd680e;
 }
-
+*/
 
 /* wrapper */
 
@@ -210,6 +211,7 @@ h4{
 a {
 	margin-right: 15px;
   margin-left: 15px;
+  
 }
 
 #content{
@@ -266,7 +268,8 @@ img {
 	border-radius: 150px;
   	-webkit-border-radius: 150px;
   	-moz-border-radius: 150px;
-  	margin-top: 80px;
+  margin-top: 80px;
+  margin-bottom: 20px; 
   }
 
 .particles{
@@ -282,28 +285,29 @@ img {
 
 #header {
 	margin-bottom: 80px;
+  height:100vh;
 }
 
 #academics {
-	background-color: #B8BFBF;
+	background-color: #3E606F;
 }
 
 #experience {
-	background-color: #7B7F7F;
+	background-color: #91AA9D;
 
 }
 
 #projects{
-	background-color: #383A40;
+	background-color: #193441;
 	color: #7B7F7F;
 }
 
 #awards {
-	background-color: #B8BFBF; 
+	background-color: #91AA9D; 
 }
 
 #publications {
-	background-color: #7B7F7F;
+	background-color: #3E606F;
 }
 
 .content-wrapper {
@@ -326,7 +330,13 @@ img {
   height: 450px;
 }
 
-#subtitle {
-  font-style: italic;
-  margin-bottom: 30px;
+#title {
+  font-size: 35px;
+  font-weight: 400;
+  color: #CBE8E8;
+}
+
+#links {
+  padding-top: 10px;
+  padding-bottom: 40px;
 }
